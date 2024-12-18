@@ -48,16 +48,9 @@ export default function RootLayout({
           <div className="relative flex flex-col h-screen">
             <main className="w-full flex-grow">{children}</main>
             <footer className="w-full flex items-center gap-3 justify-center py-3">
-              <span className="text-default-600">For Contacting</span>
+              
 
-              <Link
-                target="_blank"
-                className="flex items-center gap-1 text-current"
-                href="https://mina-massoud.onrender.com/"
-                title="nextui.org homepage"
-              >
-                Mina Massoud
-              </Link>
+               
             </footer>
           </div>
         </Providers>
